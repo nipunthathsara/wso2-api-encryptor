@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1501755202553
+Build-Jdk: 1.8.0_144
+Built-By: nipun
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.carbon.encryption
+Bundle-SymbolicName: org.wso2.carbon.encryption
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Import-Package: org.apache.commons.logging;version="1.0.4",org.osgi.serv
+ ice.component;resolution:=optional;version="[1.2,2)",org.wso2.carbon.ap
+ imgt.impl;version="[6.1,7)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/serviceComponents.xml
+Tool: Bnd-2.3.0.201405100607
